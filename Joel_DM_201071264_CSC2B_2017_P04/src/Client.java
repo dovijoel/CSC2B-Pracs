@@ -99,6 +99,7 @@ public class Client extends Application {
 	/**
 	 * For testing purposes
 	 */
+	@SuppressWarnings("unused")
 	private void generateData() {
 		for (int j = 1; j <= 10; j++) {
 			String student = String.format("%d", j*100 +r.nextInt(50));
